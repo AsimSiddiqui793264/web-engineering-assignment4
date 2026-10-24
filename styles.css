@@ -1,0 +1,77 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+
+.profile-box {
+  width: 320px;
+  height: 180px;
+  padding: 25px;
+  margin: 35px;
+  border: 3px solid green;
+}
+
+
+.profile-box p {
+  background-color: #fff9c4;
+  font-size: 18px;
+}
+
+
+.menu-bar {
+  background-image: linear-gradient(to right, #ff512f, #dd2476);
+  color: white;
+  padding: 12px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+
+.menu-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menu-list li {
+  margin-right: 30px;
+}
+
+/* Links inside menu-list */
+.menu-list a {
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #4a4a4a;
+  padding: 10px;
+  list-style: none;
+  margin: 0;
+  min-width: 140px;
+  z-index: 10;
+}
+
+.dropdown-menu li {
+  margin: 0 0 8px 0;
+}
+
+.dropdown-menu li:last-child {
+  margin-bottom: 0;
+}
+
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
